@@ -7,13 +7,13 @@ import shutil
            
            
            
-if (os.path.exists('audios')):
-     shutil.rmtree('audios')
-if (os.path.exists('videos')):
-     shutil.rmtree('videos')
+# if (os.path.exists('audios')):
+#      shutil.rmtree('audios')
+# if (os.path.exists('videos')):
+#      shutil.rmtree('videos')
              
-if (os.path.exists('media')):
-     shutil.rmtree('media')
+# if (os.path.exists('media')):
+#      shutil.rmtree('media')
     
              
 flag=0
