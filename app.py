@@ -17,7 +17,7 @@ with form:
     # singer should be required
 
     videos = st.text_input(
-        "No. of Videos(Please enter more than 10 videos)",
+        "No. of Videos (Please enter more than 10 videos)",
         key="videos",
     )
     # videos should be required and should be greater than 10
@@ -29,7 +29,7 @@ with form:
     
 
     duration = st.text_input(
-        "Enter Duration of each video in seconds(Please enter more than or equal to 20 seconds)",
+        "Enter Duration of each video in seconds (Please enter more than or equal to 20 seconds)",
         key="duration",
     )
     if len(duration) > 0:
