@@ -29,7 +29,7 @@ with form:
     
 
     duration = st.text_input(
-        "Enter duration of each video",
+        "Enter duration of each video in seconds",
         key="duration",
     )
     if len(duration) > 0:
@@ -83,7 +83,7 @@ with form:
             # flag2=0
             
     else:
-        st.write("All fields are required. If all fields are filled check for errors.")
+        st.write("All fields are required. If all fields are filled check for errors. Wait till email sent message before colsing the app!")
         
     # if flag2==1:
     #     import shutil
