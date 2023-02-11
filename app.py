@@ -91,7 +91,7 @@ with form:
             
 
 #remove all files from audios, videos and media folder
-            import shutil
+#             import shutil
             shutil.rmtree('audios')
             shutil.rmtree('videos')
             shutil.rmtree('media')
