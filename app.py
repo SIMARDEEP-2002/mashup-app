@@ -83,7 +83,8 @@ with form:
             # flag2=0
             
     else:
-        st.write("All fields are required. If all fields are filled check for errors.\n Wait till email sent message before colsing the app!")
+        st.write("All fields are required. If all fields are filled check for errors. Wait till email sent message before colsing the app!")
+        st.write("Wait till email sent message before colsing the app!)
         
     # if flag2==1:
     #     import shutil
