@@ -3,6 +3,19 @@ import pandas as pd
 import os
 import mashupcode
 from SendEmail import send_email
+import shutil
+           
+           
+           
+if (os.path.exists('audios')):
+     shutil.rmtree('audios')
+if (os.path.exists('videos')):
+     shutil.rmtree('videos')
+             
+if (os.path.exists('media')):
+     shutil.rmtree('media')
+    
+             
 flag=0
 # flag2=1
 st.title('Mashup Web App')
