@@ -74,6 +74,7 @@ with form:
             send_email(SENDER_ADDRESS, SENDER_PASSWORD, Email, SMTP_SERVER_ADDRESS, 587, 'Here is your zip file', 'Mashup', 'media/mashup.zip')
             
             st.write("Email sent successfully.")
+             st.write("Wait till email sent message before closing the app!")
 
 #remove all files from audios, videos and media folder
             import shutil
@@ -83,8 +84,8 @@ with form:
             # flag2=0
             
     else:
-        st.write("All fields are required. If all fields are filled check for errors. Wait till email sent message before colsing the app!")
-        st.write("Wait till email sent message before colsing the app!)
+        st.write("All fields are required.")
+       
         
     # if flag2==1:
     #     import shutil
