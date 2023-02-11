@@ -22,10 +22,10 @@ with form:
     )
     # videos should be required and should be greater than 10
 
-    #if len(videos) > 0:
-       #if int(videos)<=10:
-           # st.error("enter more tha 10 videos")
-            #flag=1
+    if len(videos) > 0:
+       if int(videos)<=10:
+           st.error("enter more than 10 videos")
+            flag=1
     
 
     duration = st.text_input(
