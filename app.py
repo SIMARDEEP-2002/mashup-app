@@ -100,27 +100,5 @@ with form:
     else:
         st.write("All fields are required.")
        
-        
-    # if flag2==1:
-    #     import shutil
-    #     shutil.rmtree('audios')
-    #     shutil.rmtree('videos')
-    #     shutil.rmtree('media')
-   
-
-    # submitted = st.form_submit_button("Submit")
-
-#send email of zip file
-
-# SENDER_ADDRESS='simarprojects26@gmail.com'
-# SENDER_PASSWORD='rewlmswcjnqnfxia'
-# SMTP_SERVER_ADDRESS='smtp.gmail.com'
-
-# send_email(SENDER_ADDRESS, SENDER_PASSWORD, Email, SMTP_SERVER_ADDRESS, 587, 'Here is your zip file', 'Mashup', 'media/mashup.zip')
-
-# #remove all files from audios, videos and media folder
-# import shutil
-# shutil.rmtree('audios')
-# shutil.rmtree('videos')
-# shutil.rmtree('media')
+      
 
